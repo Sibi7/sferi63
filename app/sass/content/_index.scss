@@ -1,0 +1,31 @@
+.content {
+  display: block;
+  position: relative;
+  background: #e4e8ec;
+  transition: transform .3s ease-in-out,margin .3s ease-in-out;
+  margin-left: 230px;
+  margin-right: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  .box-header{
+    border-top: 3px solid #337ab7;
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #444;
+    border-radius: 2px;
+    box-shadow: 0 20px 59px rgba(52, 58, 68, 0.1);
+    margin-top: 10px;
+    box-sizing: border-box;
+    h3{
+      margin: 0;
+    }
+  }
+  .sales-info{
+    height: 275px;
+  }
+}
+
